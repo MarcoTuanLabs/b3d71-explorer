@@ -1,0 +1,37 @@
+{
+  "paper_figure_03a_cue_hierarchy": {
+    "text_lines": 59,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_03b_subtype_recovery": {
+    "text_lines": 123,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_03c_subtype_prototypes": {
+    "text_lines": 168,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_03d_full_trial_hierarchy": {
+    "text_lines": 58,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_03e_normalized_hierarchy": {
+    "text_lines": 57,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_03f_similarity_atlas": {
+    "text_lines": 63,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_03g_graph_summaries": {
+    "text_lines": 67,
+    "overlaps": [],
+    "clipped": []
+  }
+}

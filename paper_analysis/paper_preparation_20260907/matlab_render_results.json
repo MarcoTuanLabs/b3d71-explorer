@@ -1,0 +1,277 @@
+{
+  "statistics": {
+    "n": 1346,
+    "area_labels": [
+      "S1",
+      "M1",
+      "M2"
+    ],
+    "wave_labels": [
+      "Broad",
+      "Fast/Narrow"
+    ],
+    "response_labels": [
+      "Cue-excited",
+      "Cue-suppressed",
+      "Unmodulated"
+    ],
+    "stat2b": {
+      "chi2": 122.13090236821725,
+      "df": 2,
+      "p": 3.0172515273768093e-27,
+      "V": 0.30122447283929055,
+      "counts": [
+        [
+          373,
+          144
+        ],
+        [
+          387,
+          31
+        ],
+        [
+          391,
+          20
+        ]
+      ],
+      "expected": [
+        [
+          442.1002971768202,
+          74.8997028231798
+        ],
+        [
+          357.44279346210993,
+          60.557206537890046
+        ],
+        [
+          351.45690936106985,
+          59.54309063893017
+        ]
+      ],
+      "minimum_expected": 59.54309063893017,
+      "pairwise_area_codes": [
+        [
+          1,
+          2
+        ],
+        [
+          1,
+          3
+        ],
+        [
+          2,
+          3
+        ]
+      ],
+      "pairwise_p_raw": [
+        1.4898786783435992e-16,
+        7.6404891815647755e-22,
+        0.14848708709447167
+      ],
+      "pairwise_p_holm": [
+        2.9797573566871985e-16,
+        2.2921467544694326e-21,
+        0.14848708709447167
+      ],
+      "pairwise_fast_difference_pp": [
+        20.43673012318029,
+        22.986818017102223,
+        2.550087893921931
+      ]
+    },
+    "stat2d": {
+      "scope_labels": [
+        "All",
+        "S1",
+        "M1",
+        "M2"
+      ],
+      "counts": [
+        [
+          [
+            645,
+            277,
+            200,
+            168
+          ],
+          [
+            239,
+            27,
+            91,
+            121
+          ],
+          [
+            267,
+            69,
+            96,
+            102
+          ]
+        ],
+        [
+          [
+            178,
+            139,
+            27,
+            12
+          ],
+          [
+            12,
+            3,
+            2,
+            7
+          ],
+          [
+            5,
+            2,
+            2,
+            1
+          ]
+        ]
+      ],
+      "binary_tables": [
+        [
+          [
+            645,
+            277,
+            200,
+            168
+          ],
+          [
+            506,
+            96,
+            187,
+            223
+          ]
+        ],
+        [
+          [
+            178,
+            139,
+            27,
+            12
+          ],
+          [
+            17,
+            5,
+            4,
+            8
+          ]
+        ]
+      ],
+      "p_raw": [
+        3.8260566225137025e-24,
+        3.703009359563053e-10,
+        0.00010760259004207815,
+        0.16670119238372255
+      ],
+      "p_holm": [
+        1.530422649005481e-23,
+        1.1109028078689158e-09,
+        0.0002152051800841563,
+        0.16670119238372255
+      ],
+      "test": "Fisher exact test; two-sided probability ordering",
+      "family_size": 4,
+      "stars": [
+        "****",
+        "****",
+        "***",
+        "ns"
+      ],
+      "sample_sizes_broad_fast": [
+        [
+          1151,
+          195
+        ],
+        [
+          373,
+          144
+        ],
+        [
+          387,
+          31
+        ],
+        [
+          391,
+          20
+        ]
+      ],
+      "correction": "Holm across four displayed scopes",
+      "outcome": "Cue-excited indicator: excited=1, suppressed/unmodulated=0",
+      "direction": "Fast versus Broad; effect is Fast minus Broad",
+      "alternative": "two-sided",
+      "inference_scope": "Neuron-level conditional association in one mouse; neuron dependence is not corrected",
+      "fast_minus_broad_response_pp": [
+        [
+          35.24382365390184,
+          -14.610706409142551,
+          -20.633117244759298
+        ],
+        [
+          22.265043193327372,
+          -5.155272564789993,
+          -17.109770628537387
+        ],
+        [
+          35.417187630240896,
+          -17.062598983079102,
+          -18.35458864716179
+        ],
+        [
+          17.03324808184143,
+          4.053708439897696,
+          -21.086956521739133
+        ]
+      ]
+    },
+    "pooled": {
+      "wave_counts": [
+        1151,
+        195
+      ],
+      "response_counts": [
+        [
+          645,
+          239,
+          267
+        ],
+        [
+          178,
+          12,
+          5
+        ]
+      ],
+      "V": 0.2558279873838695,
+      "tested_2b": false,
+      "tested_2d": true
+    },
+    "method2b": "Pearson chi-square; pairwise Fisher exact two-sided + Holm across 3 pairs",
+    "method2d": "Two-sided Fisher exact test of excited versus non-excited counts; Holm across All/S1/M1/M2; stars use adjusted P"
+  },
+  "source_data": "paper_source_data.mat",
+  "drawn_by": "MATLAB .m plotting programs",
+  "neuron_count": 1346,
+  "fig2c_plot_count": 2,
+  "fig2c_trace_count": 6,
+  "fig2c_point_count": 1074,
+  "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+  "matlab_execution_verified": true,
+  "figure3": {
+    "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+    "matlab_execution_verified": true,
+    "panels": 7,
+    "neuron_count": 1346,
+    "trials": 80,
+    "source_fingerprint": "170ec7dfc6c91b74007222bfa634c781df2ae52e0d2a223aec11523b97d45cd5",
+    "cue_clusters": 5,
+    "subtypes": 16,
+    "raw_clusters": 5,
+    "normalized_clusters": 5,
+    "communities": 8,
+    "edges": 12474,
+    "zscore_firing_map_included": false,
+    "spatial_views": 2,
+    "spatial_display_edges": 12474
+  },
+  "panel_count": 14
+}

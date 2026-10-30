@@ -1,0 +1,17 @@
+{
+  "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+  "matlab_execution_verified": true,
+  "panels": 7,
+  "neuron_count": 1346,
+  "trials": 80,
+  "source_fingerprint": "170ec7dfc6c91b74007222bfa634c781df2ae52e0d2a223aec11523b97d45cd5",
+  "cue_clusters": 5,
+  "subtypes": 16,
+  "raw_clusters": 5,
+  "normalized_clusters": 5,
+  "communities": 8,
+  "edges": 12474,
+  "zscore_firing_map_included": false,
+  "spatial_views": 2,
+  "spatial_display_edges": 12474
+}
