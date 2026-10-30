@@ -47,6 +47,3 @@ exports/         Figure downloads referenced by the explorer
 paper_analysis/  Selected figure and paper-preparation assets
 ```
 
-## Third-party notices
-
-Three.js is distributed under the MIT License; see `vendor/three-LICENSE.txt`. Public repository visibility does not itself assign a new license to the remaining code or recording data.
