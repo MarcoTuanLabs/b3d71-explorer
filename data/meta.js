@@ -1,0 +1,1 @@
+window.META={"nUnits": 1346, "nTrials": 80, "win": [-5.0, 20.0], "cue": 0, "psthDx": 0.025, "areaColors": {"M2": "#3D7EC4", "M1": "#3DA35A", "S1": "#C43D3D"}, "clsColors": {"Broad": "#4A78C2", "Fast/Narrow": "#D25A7D"}, "validation": {"unit171_meanHz": 44.62, "unit171_cueBase": 31.77, "unit171_t2p": 0.594, "unit171_p2p": 0.375, "unit171_qc": "no", "unit171_rpv": 6.792}};

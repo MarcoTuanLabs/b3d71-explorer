@@ -1,0 +1,1168 @@
+{
+  "rendering": {
+    "statistics": {
+      "n": 1346,
+      "area_labels": [
+        "S1",
+        "M1",
+        "M2"
+      ],
+      "wave_labels": [
+        "Broad",
+        "Fast/Narrow"
+      ],
+      "response_labels": [
+        "Cue-excited",
+        "Cue-suppressed",
+        "Unmodulated"
+      ],
+      "stat2b": {
+        "chi2": 122.13090236821725,
+        "df": 2,
+        "p": 3.0172515273768093e-27,
+        "V": 0.30122447283929055,
+        "counts": [
+          [
+            373,
+            144
+          ],
+          [
+            387,
+            31
+          ],
+          [
+            391,
+            20
+          ]
+        ],
+        "expected": [
+          [
+            442.1002971768202,
+            74.8997028231798
+          ],
+          [
+            357.44279346210993,
+            60.557206537890046
+          ],
+          [
+            351.45690936106985,
+            59.54309063893017
+          ]
+        ],
+        "minimum_expected": 59.54309063893017,
+        "pairwise_area_codes": [
+          [
+            1,
+            2
+          ],
+          [
+            1,
+            3
+          ],
+          [
+            2,
+            3
+          ]
+        ],
+        "pairwise_p_raw": [
+          1.4898786783435992e-16,
+          7.6404891815647755e-22,
+          0.14848708709447167
+        ],
+        "pairwise_p_holm": [
+          2.9797573566871985e-16,
+          2.2921467544694326e-21,
+          0.14848708709447167
+        ],
+        "pairwise_fast_difference_pp": [
+          20.43673012318029,
+          22.986818017102223,
+          2.550087893921931
+        ],
+        "display": "four independent facets; no y-axes; inter-bar gaps halved; shared 2d red/blue fill, white font and 33.37-point bar width; all eight percentages inside bars and total n above"
+      },
+      "stat2d": {
+        "scope_labels": [
+          "All",
+          "S1",
+          "M1",
+          "M2"
+        ],
+        "counts": [
+          [
+            [
+              645,
+              277,
+              200,
+              168
+            ],
+            [
+              239,
+              27,
+              91,
+              121
+            ],
+            [
+              267,
+              69,
+              96,
+              102
+            ]
+          ],
+          [
+            [
+              178,
+              139,
+              27,
+              12
+            ],
+            [
+              12,
+              3,
+              2,
+              7
+            ],
+            [
+              5,
+              2,
+              2,
+              1
+            ]
+          ]
+        ],
+        "binary_tables": [
+          [
+            [
+              645,
+              277,
+              200,
+              168
+            ],
+            [
+              506,
+              96,
+              187,
+              223
+            ]
+          ],
+          [
+            [
+              178,
+              139,
+              27,
+              12
+            ],
+            [
+              17,
+              5,
+              4,
+              8
+            ]
+          ]
+        ],
+        "p_raw": [
+          3.8260566225137025e-24,
+          3.703009359563053e-10,
+          0.00010760259004207815,
+          0.16670119238372255
+        ],
+        "p_holm": [
+          1.530422649005481e-23,
+          1.1109028078689158e-09,
+          0.0002152051800841563,
+          0.16670119238372255
+        ],
+        "test": "Fisher exact test; two-sided probability ordering",
+        "family_size": 4,
+        "stars": [
+          "****",
+          "****",
+          "***",
+          "ns"
+        ],
+        "sample_sizes_broad_fast": [
+          [
+            1151,
+            195
+          ],
+          [
+            373,
+            144
+          ],
+          [
+            387,
+            31
+          ],
+          [
+            391,
+            20
+          ]
+        ],
+        "correction": "Holm across four displayed scopes",
+        "outcome": "Cue-excited indicator: excited=1, suppressed/unmodulated=0",
+        "direction": "Fast versus Broad; effect is Fast minus Broad",
+        "alternative": "two-sided",
+        "inference_scope": "Neuron-level conditional association in one mouse; neuron dependence is not corrected",
+        "fast_minus_broad_response_pp": [
+          [
+            35.24382365390184,
+            -14.610706409142551,
+            -20.633117244759298
+          ],
+          [
+            22.265043193327372,
+            -5.155272564789993,
+            -17.109770628537387
+          ],
+          [
+            35.417187630240896,
+            -17.062598983079102,
+            -18.35458864716179
+          ],
+          [
+            17.03324808184143,
+            4.053708439897696,
+            -21.086956521739133
+          ]
+        ],
+        "display": "four broken y-axes; omitted intervals All 5-30%, S1 5-54%, M1 5-26%, M2 5-11%; no detail row or table; all 24 true percentages inside bars; within-bar class size ranking preserved; Fisher exact + Holm-adjusted stars"
+      },
+      "pooled": {
+        "wave_counts": [
+          1151,
+          195
+        ],
+        "response_counts": [
+          [
+            645,
+            239,
+            267
+          ],
+          [
+            178,
+            12,
+            5
+          ]
+        ],
+        "V": 0.2558279873838695,
+        "tested_2b": false,
+        "tested_2d": true
+      },
+      "method2b": "Pearson chi-square; pairwise Fisher exact two-sided + Holm across 3 pairs",
+      "method2d": "Two-sided Fisher exact test of excited versus non-excited counts; Holm across All/S1/M1/M2; stars use adjusted P"
+    },
+    "source_data": "paper_source_data.mat",
+    "drawn_by": "MATLAB .m plotting programs",
+    "neuron_count": 1346,
+    "fig2c_plot_count": 2,
+    "fig2c_trace_count": 6,
+    "fig2c_point_count": 1074,
+    "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+    "matlab_execution_verified": true
+  },
+  "data_provenance": {
+    "n_neurons": 1346,
+    "n_trials": 80,
+    "area_order": [
+      "All",
+      "S1",
+      "M1",
+      "M2"
+    ],
+    "wave_order": [
+      "Broad",
+      "Fast/Narrow"
+    ],
+    "response_order": [
+      "Cue-excited",
+      "Cue-suppressed",
+      "Unmodulated"
+    ],
+    "drawing_engine": "MATLAB .m source; numeric preprocessing only in this Python script",
+    "figure1a": "Existing recorded-window Hz source CSV and common 0:2.5:50 bins; redraw, not image copy.",
+    "figure1b": "Recomputed from native rasters: odd-numbered 40 trials fit pre-cue mean/SD and row order; frozen transforms apply to even-numbered 40 trials. Even-trial traces subtract odd baseline. Response classes are the archived all-80-trial paired-t/BH labels, not independently held-out labels.",
+    "figure1c": "Archived odd-baseline/even-modulation numeric points and descriptive robust fit coefficients; full data extents retained.",
+    "figure2a": "Core normalized numeric waveforms/features; seeded70-neuron exemplar subset per class.",
+    "figure2b": "Regional 3x2 waveform-class contingency counts; All is pooled descriptive only.",
+    "figure2c": "All-80-trial raw PSTH means, Gaussian sigma50ms, native25ms bins. Regular +Hz, Fast -Hz for mirror display only. Scatter exact signed cueDelta and peak firing latency for1074 modulated neurons; no jitter/statistical overlays.",
+    "figure2d": "Response composition for All/S1/M1/M2; two-sided Fisher exact tests compare excited versus non-excited counts by waveform class; MATLAB applies Holm across four displayed scopes; stars use adjusted P. Inference remains conditional at neuron level in one mouse; within-mouse dependence is not resolved. Four broken y-axes omit All 5-30%, S1 5-54%, M1 5-26%, M2 5-11%; 24 true percentages remain in bars; no detail row or numerical table.",
+    "source_sha256": {
+      "data/core.js": "e0c362a7c572d3dbc10c3fa4476332facb0184d398c243265c6bc49ee68c0f36",
+      "data/figure_reconstruction_third_draft.js": "b93fe04b598cf403a418e802824be9f99cd6ceb7c5a3cf0453c9975ac175f2e9"
+    }
+  },
+  "smoke_source": {
+    "status": "PASS",
+    "source_neurons": 1346,
+    "scatter_points": 1074,
+    "mean_rate_traces": 6,
+    "figure2c_axes": 2,
+    "max_mean_rate_error_hz": 1.7763568394002505e-14,
+    "scatter_coordinates_unchanged": true,
+    "numeric_heatmaps": [
+      [
+        1346,
+        240
+      ],
+      [
+        517,
+        240
+      ],
+      [
+        418,
+        240
+      ],
+      [
+        411,
+        240
+      ]
+    ],
+    "tiny_p_serialization_preserved": true,
+    "audit_runtime": "GNU Octave 11.3.0",
+    "note": "Prior numeric-source audit; current MATLAB render verified separately in smoke_matlab."
+  },
+  "layout": {
+    "paper_figure_01a_firing_rate_landscape": {
+      "text_lines": 40,
+      "overlaps": [],
+      "clipped": []
+    },
+    "paper_figure_01b_cue_population_timing": {
+      "text_lines": 71,
+      "overlaps": [],
+      "clipped": []
+    },
+    "paper_figure_01c_baseline_modulation": {
+      "text_lines": 50,
+      "overlaps": [],
+      "clipped": []
+    },
+    "paper_figure_02a_waveform_classes": {
+      "text_lines": 42,
+      "overlaps": [],
+      "clipped": []
+    },
+    "paper_figure_02b_waveform_composition": {
+      "text_lines": 24,
+      "overlaps": [],
+      "clipped": []
+    },
+    "paper_figure_02c_waveform_latency": {
+      "text_lines": 39,
+      "overlaps": [],
+      "clipped": []
+    },
+    "paper_figure_02d_response_by_waveform": {
+      "text_lines": 78,
+      "overlaps": [],
+      "clipped": []
+    }
+  },
+  "figure_01a": {
+    "renderer": "MATLAB source",
+    "copy_of_existing_plot": false
+  },
+  "figure_01b": {
+    "normalization": "odd-trial frozen baseline; even-trial display",
+    "response_classes": "archived all-trial BH labels"
+  },
+  "figure_01c": {
+    "source": "archived split-half points and descriptive signed fits",
+    "full_data_extents": true
+  },
+  "figure_02a": {
+    "source": "numeric normalized waveforms and waveform features"
+  },
+  "figure_02b": {
+    "chi2": 122.13090236821725,
+    "df": 2,
+    "p": 3.0172515273768093e-27,
+    "V": 0.30122447283929055,
+    "counts": [
+      [
+        373,
+        144
+      ],
+      [
+        387,
+        31
+      ],
+      [
+        391,
+        20
+      ]
+    ],
+    "expected": [
+      [
+        442.1002971768202,
+        74.8997028231798
+      ],
+      [
+        357.44279346210993,
+        60.557206537890046
+      ],
+      [
+        351.45690936106985,
+        59.54309063893017
+      ]
+    ],
+    "minimum_expected": 59.54309063893017,
+    "pairwise_area_codes": [
+      [
+        1,
+        2
+      ],
+      [
+        1,
+        3
+      ],
+      [
+        2,
+        3
+      ]
+    ],
+    "pairwise_p_raw": [
+      1.4898786783435992e-16,
+      7.6404891815647755e-22,
+      0.14848708709447167
+    ],
+    "pairwise_p_holm": [
+      2.9797573566871985e-16,
+      2.2921467544694326e-21,
+      0.14848708709447167
+    ],
+    "pairwise_fast_difference_pp": [
+      20.43673012318029,
+      22.986818017102223,
+      2.550087893921931
+    ],
+    "display": "four independent facets; no y-axes; inter-bar gaps halved; shared 2d red/blue fill, white font and 33.37-point bar width; all eight percentages inside bars and total n above"
+  },
+  "figure_02c": {
+    "plot_count": 2,
+    "mean_rate_trace_count": 6,
+    "scatter_points": 1074,
+    "upper_axis": "mirrored mean firing rate Hz",
+    "lower_axis": "signed delta firing rate Hz",
+    "statistics": "none"
+  },
+  "figure_02d": {
+    "scope_labels": [
+      "All",
+      "S1",
+      "M1",
+      "M2"
+    ],
+    "counts": [
+      [
+        [
+          645,
+          277,
+          200,
+          168
+        ],
+        [
+          239,
+          27,
+          91,
+          121
+        ],
+        [
+          267,
+          69,
+          96,
+          102
+        ]
+      ],
+      [
+        [
+          178,
+          139,
+          27,
+          12
+        ],
+        [
+          12,
+          3,
+          2,
+          7
+        ],
+        [
+          5,
+          2,
+          2,
+          1
+        ]
+      ]
+    ],
+    "binary_tables": [
+      [
+        [
+          645,
+          277,
+          200,
+          168
+        ],
+        [
+          506,
+          96,
+          187,
+          223
+        ]
+      ],
+      [
+        [
+          178,
+          139,
+          27,
+          12
+        ],
+        [
+          17,
+          5,
+          4,
+          8
+        ]
+      ]
+    ],
+    "p_raw": [
+      3.8260566225137025e-24,
+      3.703009359563053e-10,
+      0.00010760259004207815,
+      0.16670119238372255
+    ],
+    "p_holm": [
+      1.530422649005481e-23,
+      1.1109028078689158e-09,
+      0.0002152051800841563,
+      0.16670119238372255
+    ],
+    "test": "Fisher exact test; two-sided probability ordering",
+    "family_size": 4,
+    "stars": [
+      "****",
+      "****",
+      "***",
+      "ns"
+    ],
+    "sample_sizes_broad_fast": [
+      [
+        1151,
+        195
+      ],
+      [
+        373,
+        144
+      ],
+      [
+        387,
+        31
+      ],
+      [
+        391,
+        20
+      ]
+    ],
+    "correction": "Holm across four displayed scopes",
+    "outcome": "Cue-excited indicator: excited=1, suppressed/unmodulated=0",
+    "direction": "Fast versus Broad; effect is Fast minus Broad",
+    "alternative": "two-sided",
+    "inference_scope": "Neuron-level conditional association in one mouse; neuron dependence is not corrected",
+    "fast_minus_broad_response_pp": [
+      [
+        35.24382365390184,
+        -14.610706409142551,
+        -20.633117244759298
+      ],
+      [
+        22.265043193327372,
+        -5.155272564789993,
+        -17.109770628537387
+      ],
+      [
+        35.417187630240896,
+        -17.062598983079102,
+        -18.35458864716179
+      ],
+      [
+        17.03324808184143,
+        4.053708439897696,
+        -21.086956521739133
+      ]
+    ],
+    "display": "four broken y-axes; omitted intervals All 5-30%, S1 5-54%, M1 5-26%, M2 5-11%; no detail row or table; all 24 true percentages inside bars; within-bar class size ranking preserved; Fisher exact + Holm-adjusted stars"
+  },
+  "scope": "one mouse, one recording day; recorded-neuron associations, not independent-animal inference",
+  "matlab_installation": {
+    "path": "/Applications/MATLAB_R2026a.app",
+    "version": "26.1.0.3346908 (R2026a Update 5)",
+    "installed": true,
+    "activation": "verified by successful MATLAB batch rendering of all seven panels"
+  },
+  "smoke_matlab_figure1": {
+    "status": "PASS",
+    "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+    "verification": "Read-only checks of actual MATLAB vector PDFs, full-page PDF rasterizations, and native PNG exports; no project edits.",
+    "files": {
+      "paper_figure_01a_firing_rate_landscape": {
+        "text_lines": 40,
+        "overlap": [],
+        "clipped": [],
+        "size_pt": [
+          0.0,
+          0.0,
+          612.0,
+          245.0
+        ],
+        "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+        "full_pdf_page_visually_inspected": true,
+        "native_export_png_visually_inspected": true,
+        "visual_text_overlap": false,
+        "visual_clipping": false,
+        "semantic_labels_and_sample_sizes_verified": true,
+        "pdf_sha256": "cc091a9a1321a592095ec611557a12cd7118c31789df6a9c1f5c8fb3e851f81b"
+      },
+      "paper_figure_01b_cue_population_timing": {
+        "text_lines": 71,
+        "overlap": [],
+        "clipped": [],
+        "size_pt": [
+          0.0,
+          0.0,
+          612.0,
+          447.0
+        ],
+        "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+        "full_pdf_page_visually_inspected": true,
+        "native_export_png_visually_inspected": true,
+        "visual_text_overlap": false,
+        "visual_clipping": false,
+        "semantic_labels_and_sample_sizes_verified": true,
+        "pdf_sha256": "f0171fe78896c4dad68f8a9ac7c378cc53055bbf709bd2feaf8f4672ff0c7f17"
+      },
+      "paper_figure_01c_baseline_modulation": {
+        "text_lines": 50,
+        "overlap": [],
+        "clipped": [],
+        "size_pt": [
+          0.0,
+          0.0,
+          612.0,
+          310.0
+        ],
+        "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+        "full_pdf_page_visually_inspected": true,
+        "native_export_png_visually_inspected": true,
+        "visual_text_overlap": false,
+        "visual_clipping": false,
+        "semantic_labels_and_sample_sizes_verified": true,
+        "pdf_sha256": "1fadc77cfc021fa9f351c71622d1c93b5d5c9f6dcf279aa34a6d1c76a3358753"
+      }
+    },
+    "semantics": {
+      "unchanged_from_numeric_matlab_source": true,
+      "scopes": [
+        "All",
+        "S1",
+        "M1",
+        "M2"
+      ],
+      "scope_neuron_counts": [
+        1346,
+        517,
+        418,
+        411
+      ],
+      "figure1a": "Native numeric 2.5-Hz histogram; columns sum to100%; -1to+5s recorded window; final47.5Hz bin preserves>=50Hz overflow.",
+      "figure1b": "Four numeric240-column heatmaps; odd trials define normalization/order and held-out even rates displayed; three response traces and neuron SEM per scope; common -2to4z color scale.",
+      "figure1c": "1346 numeric neuron points; common full-data limits; unchanged symmetric-log coordinate transformation; descriptive signed-log fits and composition strips."
+    },
+    "matlab_plot_source_sha256": "14fc3797d1d9639e1b28714b953c23c765dbb7d436f1d7a55bc76aee58e8e314",
+    "numeric_source_mat_sha256": "284328b281d4f124d24aa47fbed20706ee57b8cd3c5e12c1c090f4d77c6cd310",
+    "total_pdf_text_lines": 161,
+    "overlap_count": 0,
+    "clipped_count": 0,
+    "project_edits": false
+  },
+  "smoke_revision": {
+    "status": "PASS",
+    "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+    "panels": {
+      "paper_figure_02b_waveform_composition": {
+        "in_bar_percentage_count": 8,
+        "source_match": true,
+        "detail_axes": 0
+      },
+      "paper_figure_02d_response_by_waveform": {
+        "in_bar_percentage_count": 24,
+        "source_match": true,
+        "detail_axes": 0
+      }
+    },
+    "native_matlab_fig_files": 7,
+    "raw_p": [
+      3.826056622510578e-24,
+      3.703009359566265e-10,
+      0.00010760259004204368,
+      0.16670119238377473
+    ],
+    "adjusted_p": [
+      1.530422649004231e-23,
+      1.1109028078698795e-09,
+      0.00021520518008408737,
+      0.16670119238377473
+    ],
+    "correction": "Holm across four displayed scopes",
+    "stars": [
+      "****",
+      "****",
+      "***",
+      "ns"
+    ]
+  },
+  "smoke_native_matlab_figures": {
+    "status": "PASS",
+    "native_fig_files": 7,
+    "bar_width_pt": 33.36533333333333,
+    "four_independent_axes_each": true,
+    "gap_ratio_2b": 0.5,
+    "detail_axes_2d": 0,
+    "broken_axes_2d": 4,
+    "response_size_rank_preserved": true,
+    "panels": [
+      {
+        "stem": "paper_figure_02b_waveform_composition",
+        "labels": 8,
+        "all_labels_inside_visible_patches": true,
+        "minimum_vertical_margin_pt": 1.506363340698499
+      },
+      {
+        "stem": "paper_figure_02d_response_by_waveform",
+        "labels": 24,
+        "all_labels_inside_visible_patches": true,
+        "minimum_vertical_margin_pt": 0.0259204421926832
+      }
+    ]
+  },
+  "native_matlab_figures": [
+    "paper_figure_01a_firing_rate_landscape.fig",
+    "paper_figure_01b_cue_population_timing.fig",
+    "paper_figure_01c_baseline_modulation.fig",
+    "paper_figure_02a_waveform_classes.fig",
+    "paper_figure_02b_waveform_composition.fig",
+    "paper_figure_02c_waveform_latency.fig",
+    "paper_figure_02d_response_by_waveform.fig"
+  ],
+  "figure_03": {
+    "render": {
+      "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+      "matlab_execution_verified": true,
+      "panels": 7,
+      "neuron_count": 1346,
+      "trials": 80,
+      "source_fingerprint": "170ec7dfc6c91b74007222bfa634c781df2ae52e0d2a223aec11523b97d45cd5",
+      "cue_clusters": 5,
+      "subtypes": 16,
+      "raw_clusters": 5,
+      "normalized_clusters": 5,
+      "communities": 8,
+      "edges": 12474,
+      "zscore_firing_map_included": false,
+      "spatial_views": 2,
+      "spatial_display_edges": 12474
+    },
+    "provenance": {
+      "source": {
+        "root": "/Users/mac/Documents/Neuron Visualization/yuwei/data/B3D71 Spike Timing and Unit Identity ",
+        "sessions": [
+          21,
+          40
+        ],
+        "files": 40,
+        "continuousEvents": 15248040,
+        "sampleRateHz": 32000,
+        "units": 1346,
+        "trials": 80
+      },
+      "sha256_raw_files": "170ec7dfc6c91b74007222bfa634c781df2ae52e0d2a223aec11523b97d45cd5",
+      "sha256_core_js": "e0c362a7c572d3dbc10c3fa4476332facb0184d398c243265c6bc49ee68c0f36",
+      "n_units": 1346,
+      "n_trials": 80,
+      "full_vector_bins": 160000,
+      "total_window_spikes": 13292033,
+      "reference_inputs_used": false,
+      "requested_resolution": {
+        "major_classes": 5,
+        "subtypes": 16,
+        "subtype_allocation": [
+          5,
+          1,
+          3,
+          1,
+          6
+        ],
+        "communities": 8
+      },
+      "resolution_is_prespecified": true,
+      "group_selection": "Requested five-class average-linkage cut on 1-Pearson r. Silhouettes for K=2..10 are sensitivity diagnostics, not evidence that K=5 is optimal. Cue class names follow computed early excitation/suppression, late rise and mean rate.",
+      "subtype_selection": "Requested 16-subtype resolution allocated 5/1/3/1/6 to C1-C5. Refit 32-start k-means++ on row-standardized actual cue profiles; subtype letters ordered by computed prototype peak. Counts/memberships are not reference targets.",
+      "subtype_candidates": [
+        {
+          "major": 1,
+          "specified_k": 5,
+          "actual_counts": [
+            36,
+            83,
+            25,
+            64,
+            33
+          ]
+        },
+        {
+          "major": 2,
+          "specified_k": 1,
+          "actual_counts": [
+            4
+          ]
+        },
+        {
+          "major": 3,
+          "specified_k": 3,
+          "actual_counts": [
+            30,
+            10,
+            22
+          ]
+        },
+        {
+          "major": 4,
+          "specified_k": 1,
+          "actual_counts": [
+            45
+          ]
+        },
+        {
+          "major": 5,
+          "specified_k": 6,
+          "actual_counts": [
+            156,
+            134,
+            210,
+            236,
+            108,
+            150
+          ]
+        }
+      ],
+      "bootstrap": "50 session-block resamples of 20 four-trial blocks; major and subtype assignments refitted with selected counts fixed; Hungarian overlap alignment; Jaccard recovery. Intervals are resampling spread, not animal-level confidence intervals.",
+      "graph": "Union of positive top-10 Pearson neighbors; 100 weighted asynchronous label-propagation runs, seeds 0..99; average-linkage consensus coassignment cut to requested eight communities. Spring positions for display only.",
+      "normalization": "Each 25s trial standardized separately after centered 5-bin zero-padded moving sum. Constant trials contribute zeros.",
+      "partitions": {
+        "cue": {
+          "k": 5,
+          "sizes": [
+            241,
+            4,
+            62,
+            45,
+            994
+          ],
+          "silhouette": 0.23130727113513191,
+          "candidate_scores": [
+            [
+              2.0,
+              0.3072202407555193
+            ],
+            [
+              3.0,
+              0.2707240339702049
+            ],
+            [
+              4.0,
+              0.24658915141779195
+            ],
+            [
+              5.0,
+              0.23130727113513191
+            ],
+            [
+              6.0,
+              0.213446562658611
+            ],
+            [
+              7.0,
+              0.20833756333562753
+            ],
+            [
+              8.0,
+              0.20229928542624045
+            ],
+            [
+              9.0,
+              0.1974387073255588
+            ],
+            [
+              10.0,
+              0.19129123776759827
+            ]
+          ]
+        },
+        "raw": {
+          "k": 5,
+          "sizes": [
+            14,
+            70,
+            6,
+            10,
+            1246
+          ],
+          "silhouette": 0.0034132979921024853,
+          "candidate_scores": [
+            [
+              2.0,
+              0.010369875058959503
+            ],
+            [
+              3.0,
+              0.005288342478133522
+            ],
+            [
+              4.0,
+              0.003864247704488754
+            ],
+            [
+              5.0,
+              0.0034132979921024853
+            ],
+            [
+              6.0,
+              0.0031979971663191084
+            ],
+            [
+              7.0,
+              0.00311384782158062
+            ],
+            [
+              8.0,
+              0.0029661588547682904
+            ],
+            [
+              9.0,
+              0.0029200929635817357
+            ],
+            [
+              10.0,
+              0.0027843754688652344
+            ]
+          ]
+        },
+        "smooth": {
+          "k": 5,
+          "sizes": [
+            13,
+            6,
+            1318,
+            2,
+            7
+          ],
+          "silhouette": 0.011201080671739463,
+          "candidate_scores": [
+            [
+              2.0,
+              0.03184333023255964
+            ],
+            [
+              3.0,
+              0.014663350392885972
+            ],
+            [
+              4.0,
+              0.012668532375093031
+            ],
+            [
+              5.0,
+              0.011201080671739463
+            ],
+            [
+              6.0,
+              0.01045149964842056
+            ],
+            [
+              7.0,
+              0.009735243337188065
+            ],
+            [
+              8.0,
+              0.014550306613680637
+            ],
+            [
+              9.0,
+              0.014470310720413253
+            ],
+            [
+              10.0,
+              0.014155161960775202
+            ]
+          ]
+        }
+      },
+      "subtype_count": 16,
+      "community_count": 8,
+      "graph_edge_count": 12474,
+      "graph_modularity": 0.29948743739899597,
+      "versions": {
+        "numpy": "2.5.3",
+        "scipy": "1.18.1",
+        "networkx": "3.6.1"
+      },
+      "scope": "one mouse; 20 recording blocks are not independent animals; functional similarity is not connectivity or causality",
+      "excluded_panel": "subtype-sorted z-score firing-rate map"
+    },
+    "data_verification": {
+      "status": "PASS",
+      "independent_raw_spike_reconstruction_units": [
+        1,
+        25,
+        59,
+        61,
+        65,
+        83,
+        95,
+        132,
+        145,
+        262,
+        274,
+        281,
+        309,
+        320,
+        338,
+        346,
+        348,
+        366,
+        414,
+        516,
+        519,
+        596,
+        630,
+        705,
+        707,
+        712,
+        851,
+        855,
+        868,
+        896,
+        915,
+        952,
+        958,
+        988,
+        1002,
+        1018,
+        1019,
+        1039,
+        1075,
+        1080,
+        1086,
+        1105,
+        1156,
+        1170,
+        1240,
+        1271,
+        1321,
+        1335
+      ],
+      "tested_trials": 80,
+      "cue_rate_and_raw_and_normalized_Pearson_match": true,
+      "all_partition_counts_verified": true,
+      "unique_edges_and_degree_and_bridge_and_region_budget_verified": true,
+      "bootstrap_summary_verified": true,
+      "reference_inputs_used": false,
+      "input_mat_sha256": "65e25fb393cc0ebfb3b27a15e250cbccfa8cd7655e5069fa0894c4a0c8c0f262"
+    },
+    "native_verification": {
+      "status": "PASS",
+      "panels": [
+        {
+          "file": "paper_figure_03a_cue_hierarchy.fig",
+          "axes_count": 6,
+          "square_correlation_matrices": 1
+        },
+        {
+          "file": "paper_figure_03b_subtype_recovery.fig",
+          "axes_count": 7,
+          "square_correlation_matrices": 1
+        },
+        {
+          "file": "paper_figure_03c_subtype_prototypes.fig",
+          "axes_count": 16,
+          "square_correlation_matrices": 0
+        },
+        {
+          "file": "paper_figure_03d_full_trial_hierarchy.fig",
+          "axes_count": 6,
+          "square_correlation_matrices": 1
+        },
+        {
+          "file": "paper_figure_03e_normalized_hierarchy.fig",
+          "axes_count": 6,
+          "square_correlation_matrices": 1
+        },
+        {
+          "file": "paper_figure_03f_similarity_atlas.fig",
+          "axes_count": 4,
+          "square_correlation_matrices": 0
+        },
+        {
+          "file": "paper_figure_03g_graph_summaries.fig",
+          "axes_count": 4,
+          "square_correlation_matrices": 0
+        }
+      ],
+      "prototype_traces": 16,
+      "spatial_nodes": 1346,
+      "display_edges_per_view": 12474,
+      "spatial_views": 2,
+      "full_graph_edges": 12474,
+      "empty_axes": false,
+      "zscore_firing_map": false
+    },
+    "pdf_layout": {
+      "paper_figure_03a_cue_hierarchy": {
+        "text_lines": 59,
+        "overlaps": [],
+        "clipped": []
+      },
+      "paper_figure_03b_subtype_recovery": {
+        "text_lines": 123,
+        "overlaps": [],
+        "clipped": []
+      },
+      "paper_figure_03c_subtype_prototypes": {
+        "text_lines": 168,
+        "overlaps": [],
+        "clipped": []
+      },
+      "paper_figure_03d_full_trial_hierarchy": {
+        "text_lines": 58,
+        "overlaps": [],
+        "clipped": []
+      },
+      "paper_figure_03e_normalized_hierarchy": {
+        "text_lines": 57,
+        "overlaps": [],
+        "clipped": []
+      },
+      "paper_figure_03f_similarity_atlas": {
+        "text_lines": 63,
+        "overlaps": [],
+        "clipped": []
+      },
+      "paper_figure_03g_graph_summaries": {
+        "text_lines": 67,
+        "overlaps": [],
+        "clipped": []
+      }
+    }
+  },
+  "paper_figure_count": 3,
+  "panel_count": 14
+}

@@ -1,0 +1,36 @@
+{
+  "status": "PASS",
+  "runtime": "MATLAB 26.1.0.3346908 (R2026a) Update 5",
+  "panels": {
+    "paper_figure_02b_waveform_composition": {
+      "in_bar_percentage_count": 8,
+      "source_match": true,
+      "detail_axes": 0
+    },
+    "paper_figure_02d_response_by_waveform": {
+      "in_bar_percentage_count": 24,
+      "source_match": true,
+      "detail_axes": 0
+    }
+  },
+  "native_matlab_fig_files": 7,
+  "raw_p": [
+    3.826056622510578e-24,
+    3.703009359566265e-10,
+    0.00010760259004204368,
+    0.16670119238377473
+  ],
+  "adjusted_p": [
+    1.530422649004231e-23,
+    1.1109028078698795e-09,
+    0.00021520518008408737,
+    0.16670119238377473
+  ],
+  "correction": "Holm across four displayed scopes",
+  "stars": [
+    "****",
+    "****",
+    "***",
+    "ns"
+  ]
+}

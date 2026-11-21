@@ -1,0 +1,31 @@
+{
+  "n_neurons": 1346,
+  "n_trials": 80,
+  "area_order": [
+    "All",
+    "S1",
+    "M1",
+    "M2"
+  ],
+  "wave_order": [
+    "Broad",
+    "Fast/Narrow"
+  ],
+  "response_order": [
+    "Cue-excited",
+    "Cue-suppressed",
+    "Unmodulated"
+  ],
+  "drawing_engine": "MATLAB .m source; numeric preprocessing only in this Python script",
+  "figure1a": "Existing recorded-window Hz source CSV and common 0:2.5:50 bins; redraw, not image copy.",
+  "figure1b": "Recomputed from native rasters: odd-numbered 40 trials fit pre-cue mean/SD and row order; frozen transforms apply to even-numbered 40 trials. Even-trial traces subtract odd baseline. Response classes are the archived all-80-trial paired-t/BH labels, not independently held-out labels.",
+  "figure1c": "Archived odd-baseline/even-modulation numeric points and descriptive robust fit coefficients; full data extents retained.",
+  "figure2a": "Core normalized numeric waveforms/features; seeded70-neuron exemplar subset per class.",
+  "figure2b": "Regional 3x2 waveform-class contingency counts; All is pooled descriptive only.",
+  "figure2c": "All-80-trial raw PSTH means, Gaussian sigma50ms, native25ms bins. Regular +Hz, Fast -Hz for mirror display only. Scatter exact signed cueDelta and peak firing latency for1074 modulated neurons; no jitter/statistical overlays.",
+  "figure2d": "Response composition for All/S1/M1/M2; two-sided Fisher exact tests compare excited versus non-excited counts by waveform class; MATLAB applies Holm across four displayed scopes; stars use adjusted P. Inference remains conditional at neuron level in one mouse; within-mouse dependence is not resolved. Four broken y-axes omit All 5-30%, S1 5-54%, M1 5-26%, M2 5-11%; 24 true percentages remain in bars; no detail row or numerical table.",
+  "source_sha256": {
+    "data/core.js": "e0c362a7c572d3dbc10c3fa4476332facb0184d398c243265c6bc49ee68c0f36",
+    "data/figure_reconstruction_third_draft.js": "b93fe04b598cf403a418e802824be9f99cd6ceb7c5a3cf0453c9975ac175f2e9"
+  }
+}

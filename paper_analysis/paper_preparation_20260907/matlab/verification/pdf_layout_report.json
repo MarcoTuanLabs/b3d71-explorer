@@ -1,0 +1,37 @@
+{
+  "paper_figure_01a_firing_rate_landscape": {
+    "text_lines": 40,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_01b_cue_population_timing": {
+    "text_lines": 71,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_01c_baseline_modulation": {
+    "text_lines": 50,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_02a_waveform_classes": {
+    "text_lines": 42,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_02b_waveform_composition": {
+    "text_lines": 24,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_02c_waveform_latency": {
+    "text_lines": 39,
+    "overlaps": [],
+    "clipped": []
+  },
+  "paper_figure_02d_response_by_waveform": {
+    "text_lines": 78,
+    "overlaps": [],
+    "clipped": []
+  }
+}

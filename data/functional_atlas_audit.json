@@ -1,0 +1,272 @@
+{
+  "source": "recomputed from complete S21-S40 recordings across all 80 trial windows",
+  "correlation": {
+    "offDiagonalQuantiles": [
+      -0.050404,
+      0.007488,
+      0.13792
+    ],
+    "finite": true
+  },
+  "graph": {
+    "directedChoices": 13460,
+    "uniqueUndirectedEdges": 12474,
+    "directedBudgetAreaMatrix": [
+      [
+        76.6,
+        154.4,
+        93.1
+      ],
+      [
+        154.4,
+        246.7,
+        232.9
+      ],
+      [
+        93.1,
+        232.9,
+        511.6
+      ]
+    ],
+    "unionEdgeAreaMatrix": [
+      [
+        67.6,
+        143.9,
+        90.3
+      ],
+      [
+        143.9,
+        206.6,
+        221.0
+      ],
+      [
+        90.3,
+        221.0,
+        444.6
+      ]
+    ],
+    "teacherAreaMatrix": [
+      [
+        67.4,
+        143.7,
+        90.3
+      ],
+      [
+        143.7,
+        206.7,
+        220.1
+      ],
+      [
+        90.3,
+        220.1,
+        444.1
+      ]
+    ],
+    "directedBudgetMeanAbsoluteError": 18.806,
+    "unionEdgeMeanAbsoluteError": 0.353
+  },
+  "rankings": {
+    "directedDegree": [
+      {
+        "unit": 828,
+        "area": "S1",
+        "value": 69.75
+      },
+      {
+        "unit": 171,
+        "area": "M1",
+        "value": 62.99
+      },
+      {
+        "unit": 1200,
+        "area": "S1",
+        "value": 59.487
+      },
+      {
+        "unit": 383,
+        "area": "M1",
+        "value": 58.43
+      },
+      {
+        "unit": 495,
+        "area": "M1",
+        "value": 53.16
+      },
+      {
+        "unit": 175,
+        "area": "M1",
+        "value": 36.908
+      },
+      {
+        "unit": 1206,
+        "area": "S1",
+        "value": 36.026
+      },
+      {
+        "unit": 472,
+        "area": "S1",
+        "value": 23.129
+      },
+      {
+        "unit": 1040,
+        "area": "M1",
+        "value": 22.227
+      },
+      {
+        "unit": 1244,
+        "area": "S1",
+        "value": 22.18
+      }
+    ],
+    "unionDegree": [
+      {
+        "unit": 828,
+        "area": "S1",
+        "value": 65.763
+      },
+      {
+        "unit": 171,
+        "area": "M1",
+        "value": 59.061
+      },
+      {
+        "unit": 1200,
+        "area": "S1",
+        "value": 56.185
+      },
+      {
+        "unit": 383,
+        "area": "M1",
+        "value": 54.853
+      },
+      {
+        "unit": 495,
+        "area": "M1",
+        "value": 49.523
+      },
+      {
+        "unit": 175,
+        "area": "M1",
+        "value": 34.354
+      },
+      {
+        "unit": 1206,
+        "area": "S1",
+        "value": 33.322
+      },
+      {
+        "unit": 472,
+        "area": "S1",
+        "value": 20.199
+      },
+      {
+        "unit": 1040,
+        "area": "M1",
+        "value": 19.967
+      },
+      {
+        "unit": 1083,
+        "area": "M1",
+        "value": 19.472
+      }
+    ],
+    "directedCrossRegion": [
+      {
+        "unit": 171,
+        "area": "M1",
+        "value": 39.743
+      },
+      {
+        "unit": 383,
+        "area": "M1",
+        "value": 38.518
+      },
+      {
+        "unit": 828,
+        "area": "S1",
+        "value": 31.616
+      },
+      {
+        "unit": 495,
+        "area": "M1",
+        "value": 31.422
+      },
+      {
+        "unit": 175,
+        "area": "M1",
+        "value": 22.855
+      },
+      {
+        "unit": 1206,
+        "area": "S1",
+        "value": 19.965
+      },
+      {
+        "unit": 1200,
+        "area": "S1",
+        "value": 18.215
+      },
+      {
+        "unit": 472,
+        "area": "S1",
+        "value": 12.199
+      },
+      {
+        "unit": 1040,
+        "area": "M1",
+        "value": 11.387
+      },
+      {
+        "unit": 1083,
+        "area": "M1",
+        "value": 11.384
+      }
+    ],
+    "teacherHubIds": [
+      828,
+      171,
+      1200,
+      383,
+      495,
+      175,
+      1206,
+      472
+    ]
+  },
+  "communitySeedSensitivity": {
+    "seedsTested": 2000,
+    "communityCountFrequency": {
+      "3": 59,
+      "4": 133,
+      "5": 262,
+      "6": 342,
+      "7": 396,
+      "8": 393,
+      "9": 272,
+      "10": 123,
+      "11": 20
+    },
+    "bestL1": 0,
+    "bestSeed": 767,
+    "bestSizes": [
+      985,
+      115,
+      90,
+      65,
+      29,
+      27,
+      21,
+      14
+    ],
+    "teacherSizes": [
+      985,
+      115,
+      90,
+      65,
+      29,
+      27,
+      21,
+      14
+    ]
+  }
+}

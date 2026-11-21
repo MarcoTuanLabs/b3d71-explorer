@@ -1,0 +1,247 @@
+{
+  "source": {
+    "root": "/Users/mac/Documents/Neuron Visualization/yuwei/data/B3D71 Spike Timing and Unit Identity ",
+    "sessions": [
+      21,
+      40
+    ],
+    "files": 40,
+    "continuousEvents": 15248040,
+    "sampleRateHz": 32000,
+    "units": 1346,
+    "trials": 80
+  },
+  "sha256_raw_files": "170ec7dfc6c91b74007222bfa634c781df2ae52e0d2a223aec11523b97d45cd5",
+  "sha256_core_js": "e0c362a7c572d3dbc10c3fa4476332facb0184d398c243265c6bc49ee68c0f36",
+  "n_units": 1346,
+  "n_trials": 80,
+  "full_vector_bins": 160000,
+  "total_window_spikes": 13292033,
+  "reference_inputs_used": false,
+  "requested_resolution": {
+    "major_classes": 5,
+    "subtypes": 16,
+    "subtype_allocation": [
+      5,
+      1,
+      3,
+      1,
+      6
+    ],
+    "communities": 8
+  },
+  "resolution_is_prespecified": true,
+  "group_selection": "Requested five-class average-linkage cut on 1-Pearson r. Silhouettes for K=2..10 are sensitivity diagnostics, not evidence that K=5 is optimal. Cue class names follow computed early excitation/suppression, late rise and mean rate.",
+  "subtype_selection": "Requested 16-subtype resolution allocated 5/1/3/1/6 to C1-C5. Refit 32-start k-means++ on row-standardized actual cue profiles; subtype letters ordered by computed prototype peak. Counts/memberships are not reference targets.",
+  "subtype_candidates": [
+    {
+      "major": 1,
+      "specified_k": 5,
+      "actual_counts": [
+        36,
+        83,
+        25,
+        64,
+        33
+      ]
+    },
+    {
+      "major": 2,
+      "specified_k": 1,
+      "actual_counts": [
+        4
+      ]
+    },
+    {
+      "major": 3,
+      "specified_k": 3,
+      "actual_counts": [
+        30,
+        10,
+        22
+      ]
+    },
+    {
+      "major": 4,
+      "specified_k": 1,
+      "actual_counts": [
+        45
+      ]
+    },
+    {
+      "major": 5,
+      "specified_k": 6,
+      "actual_counts": [
+        156,
+        134,
+        210,
+        236,
+        108,
+        150
+      ]
+    }
+  ],
+  "bootstrap": "50 session-block resamples of 20 four-trial blocks; major and subtype assignments refitted with selected counts fixed; Hungarian overlap alignment; Jaccard recovery. Intervals are resampling spread, not animal-level confidence intervals.",
+  "graph": "Union of positive top-10 Pearson neighbors; 100 weighted asynchronous label-propagation runs, seeds 0..99; average-linkage consensus coassignment cut to requested eight communities. Spring positions for display only.",
+  "normalization": "Each 25s trial standardized separately after centered 5-bin zero-padded moving sum. Constant trials contribute zeros.",
+  "partitions": {
+    "cue": {
+      "k": 5,
+      "sizes": [
+        241,
+        4,
+        62,
+        45,
+        994
+      ],
+      "silhouette": 0.23130727113513191,
+      "candidate_scores": [
+        [
+          2.0,
+          0.3072202407555193
+        ],
+        [
+          3.0,
+          0.2707240339702049
+        ],
+        [
+          4.0,
+          0.24658915141779195
+        ],
+        [
+          5.0,
+          0.23130727113513191
+        ],
+        [
+          6.0,
+          0.213446562658611
+        ],
+        [
+          7.0,
+          0.20833756333562753
+        ],
+        [
+          8.0,
+          0.20229928542624045
+        ],
+        [
+          9.0,
+          0.1974387073255588
+        ],
+        [
+          10.0,
+          0.19129123776759827
+        ]
+      ]
+    },
+    "raw": {
+      "k": 5,
+      "sizes": [
+        14,
+        70,
+        6,
+        10,
+        1246
+      ],
+      "silhouette": 0.0034132979921024853,
+      "candidate_scores": [
+        [
+          2.0,
+          0.010369875058959503
+        ],
+        [
+          3.0,
+          0.005288342478133522
+        ],
+        [
+          4.0,
+          0.003864247704488754
+        ],
+        [
+          5.0,
+          0.0034132979921024853
+        ],
+        [
+          6.0,
+          0.0031979971663191084
+        ],
+        [
+          7.0,
+          0.00311384782158062
+        ],
+        [
+          8.0,
+          0.0029661588547682904
+        ],
+        [
+          9.0,
+          0.0029200929635817357
+        ],
+        [
+          10.0,
+          0.0027843754688652344
+        ]
+      ]
+    },
+    "smooth": {
+      "k": 5,
+      "sizes": [
+        13,
+        6,
+        1318,
+        2,
+        7
+      ],
+      "silhouette": 0.011201080671739463,
+      "candidate_scores": [
+        [
+          2.0,
+          0.03184333023255964
+        ],
+        [
+          3.0,
+          0.014663350392885972
+        ],
+        [
+          4.0,
+          0.012668532375093031
+        ],
+        [
+          5.0,
+          0.011201080671739463
+        ],
+        [
+          6.0,
+          0.01045149964842056
+        ],
+        [
+          7.0,
+          0.009735243337188065
+        ],
+        [
+          8.0,
+          0.014550306613680637
+        ],
+        [
+          9.0,
+          0.014470310720413253
+        ],
+        [
+          10.0,
+          0.014155161960775202
+        ]
+      ]
+    }
+  },
+  "subtype_count": 16,
+  "community_count": 8,
+  "graph_edge_count": 12474,
+  "graph_modularity": 0.29948743739899597,
+  "versions": {
+    "numpy": "2.5.3",
+    "scipy": "1.18.1",
+    "networkx": "3.6.1"
+  },
+  "scope": "one mouse; 20 recording blocks are not independent animals; functional similarity is not connectivity or causality",
+  "excluded_panel": "subtype-sorted z-score firing-rate map"
+}
